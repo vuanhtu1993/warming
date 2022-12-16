@@ -33,7 +33,7 @@ function App() {
   }, [])
 
   return (
-    <div className="App">
+    <div className="App bg-red-400">
       Weather app
       {actual && JSON.stringify(actual.weather?.[0].main)}
     </div>
