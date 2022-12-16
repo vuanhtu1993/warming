@@ -6,6 +6,7 @@ import {fetchWeather} from './api/weather'
 import reactLogo from './assets/react.svg'
 import './App.css'
 import { RootState } from './app/store'
+import Cloud from './components/background.ts'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -34,7 +35,7 @@ function App() {
 
   return (
     <div className="App bg-red-400">
-      Weather app
+      <Cloud/>
       {actual && JSON.stringify(actual.weather?.[0].main)}
     </div>
   )
