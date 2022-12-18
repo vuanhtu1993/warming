@@ -92,9 +92,8 @@ const Raining: React.FC<Props> = (props: Props) => {
     //     retturn 
     // })
 
-    return <div className="wrapper back-row-toggle splat-toggle">
+    return <div className="wrapper">
         <div className="rain front-row">
-            {/* {duplicate(100)} */}
             {duplicate(500, "front")}
         </div>
         <div className="rain back-row">

@@ -7,5 +7,5 @@
 
 body {
 	/*To hide the horizontal scroller appearing during the animation*/
-	overflow: hidden;
+	/* overflow: hidden; */
 }

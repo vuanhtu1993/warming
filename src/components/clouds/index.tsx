@@ -8,7 +8,7 @@ type Props = {
 
 const Cloud: React.FC<Props> = (props: Props) => {
     return <>
-        <div id="clouds">
+        <div className={styles.wrapper}>
             <div className={cx(styles.cloud, styles.x1)}></div>
             <div className={cx(styles.cloud, styles.x2)}></div>
             <div className={cx(styles.cloud, styles.x3)}></div>

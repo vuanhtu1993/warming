@@ -34,10 +34,12 @@ function App() {
   }, [])
 
   return (
-    <div className="h-[500px]">
-      {/* <Cloud/> */}
+    <div className=" bg-[#c9dbe9]">
+      <Cloud/>
       <Raining/>
-      {actual && JSON.stringify(actual.weather?.[0].main)}
+      <div className='z-3 relative top-0'>
+        {actual && JSON.stringify(actual.weather?.[0].main)}
+      </div>
     </div>
   )
 }

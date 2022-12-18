@@ -2,12 +2,12 @@
 
 /*The container will also serve as the SKY*/
 
-#clouds{
+.wrapper{
 	padding: 100px 0;
-	background: #c9dbe9;
+	/* background: #c9dbe9;
 	background: -webkit-linear-gradient(top, #c9dbe9 0%, #fff 100%);
 	background: -linear-gradient(top, #c9dbe9 0%, #fff 100%);
-	background: -moz-linear-gradient(top, #c9dbe9 0%, #fff 100%);
+	background: -moz-linear-gradient(top, #c9dbe9 0%, #fff 100%); */
 }
 
 /*Time to finalise the cloud shape*/
