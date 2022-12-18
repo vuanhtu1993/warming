@@ -4,9 +4,9 @@ import {updateActual, updateLoading} from './slices/weatherSlice'
 import {IActual} from './interfaces/weather'
 import {fetchWeather} from './api/weather'
 import reactLogo from './assets/react.svg'
-import './App.css'
 import { RootState } from './app/store'
-import Cloud from './components/background.ts'
+import Cloud from './components/clouds'
+import Raining from './components/raining'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -34,8 +34,9 @@ function App() {
   }, [])
 
   return (
-    <div className="App bg-red-400">
-      <Cloud/>
+    <div className="h-[500px]">
+      {/* <Cloud/> */}
+      <Raining/>
       {actual && JSON.stringify(actual.weather?.[0].main)}
     </div>
   )
